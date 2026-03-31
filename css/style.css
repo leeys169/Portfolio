@@ -724,8 +724,8 @@
     .bg-orb-profile{
         width: 600px;
         height: 600px;
-        top: 50px;
-        left: 30px;
+        /* top: 50px;
+        left: 30px; */
     }
     .intro-title { 
         font-size: 35px; 
