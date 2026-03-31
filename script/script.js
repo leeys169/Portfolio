@@ -175,26 +175,26 @@ function initTabEvents() {
     });
 }
 
-const cursor = document.querySelector(".cursor-dot");
-const hoverElements = document.querySelectorAll("a, button, .works-tab-btn, .work-item");
+// const cursor = document.querySelector(".cursor-dot");
+// const hoverElements = document.querySelectorAll("a, button, .works-tab-btn, .work-item");
 
-hoverElements.forEach(el => {
-    el.addEventListener("mouseenter", () => {
-        cursor.classList.add("on-focus");
-    });
-    el.addEventListener("mouseleave", () => {
-        cursor.classList.remove("on-focus");
-    });
-});
+// hoverElements.forEach(el => {
+//     el.addEventListener("mouseenter", () => {
+//         cursor.classList.add("on-focus");
+//     });
+//     el.addEventListener("mouseleave", () => {
+//         cursor.classList.remove("on-focus");
+//     });
+// });
 
 
-window.addEventListener("mousemove", (e) => {
-    gsap.to(".cursor-dot", {
-        x: e.clientX,
-        y: e.clientY,
-        duration: 0
-    });
-});
+// window.addEventListener("mousemove", (e) => {
+//     gsap.to(".cursor-dot", {
+//         x: e.clientX,
+//         y: e.clientY,
+//         duration: 0
+//     });
+// });
 
 // ====================== 6. 최종 실행 명령 ======================
 window.addEventListener("DOMContentLoaded", () => {
