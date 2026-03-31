@@ -21,11 +21,11 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
-    cursor: none;
+    /* cursor: none; */
 }
 
-a, button, .works-tab-btn {
-    cursor: none;
+a, button, .works-tab-btn, .skill-card {
+    cursor: pointer;
 }
 
 #main-contents {

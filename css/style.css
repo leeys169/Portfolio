@@ -1,5 +1,5 @@
 /* 마우스효과 */
-.cursor-dot {
+/* .cursor-dot {
     width: 25px;
     height: 25px;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23C09CFF'%3E%3Cpath d='M7 2l12 11.13-5.23 1.12 3.23 5.75-2 1.12-3.23-5.75-4.77 4.63V2z'/%3E%3C/svg%3E");
@@ -24,7 +24,7 @@
 .cursor-active{
     transform: scale(2);
     background: rgba(192, 156, 255, 0.6);
-}
+} */
 
 #main-contents {
     opacity: 0;
@@ -675,6 +675,7 @@
     .about-text p{
         font-size: 16px;
         margin-bottom: 10px;
+        white-space: nowrap;
     }
     
     .skills .inner { 
