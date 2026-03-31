@@ -780,9 +780,9 @@
 }
 
 @media screen and (max-width: 660px){
-    .about .inner{
+    /* .about .inner{
         padding: 20px;
-    }
+    } */
 
     .about-text p { 
         font-size: 15px;
