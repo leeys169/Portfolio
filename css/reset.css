@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Space Grotesk", "Pretendard", sans-serif;
+    line-height: 1.5;
+    color: var(--text-main);
+    background: var(--bg-main); /* 변수 적용 */
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: none;
+}
+
+a, button, .works-tab-btn {
+    cursor: none;
+}
+
+#main-contents {
+    opacity: 0;
+    visibility: hidden;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+
+button {
+    border: none;
+    background: none;
+    font-family: inherit;
+}
+
+
+input,
+textarea {
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+
+strong {
+    font-weight: 600;
+}
+
+
+/* 공통 레이아웃 */
+#wrap {
+    overflow-x: hidden;
+}
+
+
+/* inner */
+.inner {
+    width: 100%;
+    max-width: 1760px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+/* 섹션 공통 */
+section {
+    position: relative;
+}
+
+
+/* 배경 색상 */
+.section-dark {
+    background: #111111;
+}
+
+.section-deep {
+    background: #131313;
+}
+
+
+/* 포인트 컬러 변수 */
+:root {
+    --purple-1: #C09CFF;
+    --purple-2: #B387FF;
+    /* 추가: 테마 변수 */
+    --bg-main: #111111;
+    --bg-sub: #131313;
+    --text-main: #ADAAAA;
+    --text-title: #ffffff;
+}
+
+body.light-mode {
+    --bg-main: #ffffff;
+    --bg-sub: #f7f7f7;
+    --text-main: #333333;
+    --text-title: #111111;
+}
+

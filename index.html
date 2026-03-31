@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEE YE SEUL | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+    <body>
+    <div id="wrap">
+        <div class="cursor-dot"></div>
+        <div class="cursor-blur"></div>
+
+        <!-- ===================== INTRO ===================== -->
+        <section class="intro" id="intro">
+            <div class="intro-inner">
+                <h1 class="intro-title" id="typing-text">
+                <!-- JS 타이핑 텍스트 -->
+                </h1>
+            </div>
+        </section>
+
+        <div id="main-contents">
+            <!-- ===================== PROFILE ===================== -->
+            <section class="profile section-dark" id="profile">
+                <div class="bg-orb bg-orb-profile"></div>
+
+                <div class="inner">
+                    <div class="profile-wrap">
+
+                    <div class="profile-left">
+                        <p class="profile-label reveal">CREATIVE FRONTEND DEVELOPER</p>
+
+                        <h2 class="profile-title">
+                            <span class="reveal">LEE</span>
+                            <span class="reveal">YE SEUL</span>
+                        </h2>
+
+                        <div class="profile-info">
+                            <p class="profile-role reveal">UI/UX Designer / Frontend Developer</p>
+                            <p class="profile-contact reveal">
+                                Let’s connect — feel free to send me an email.<br />
+                                zz.-2a@daum.net
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="profile-right">
+                        <a href="#about" class="scroll-view-btn reveal">
+                            <span class="scroll-view-txt">SCROLL TO VIEW</span>
+                            <span class="scroll-view-icon" aria-hidden="true">↓</span>
+                        </a>
+                    </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ===================== ABOUT ===================== -->
+            <section class="about section-deep" id="about">
+                <div class="inner">
+                    <div class="about-wrap">
+                        <h2 class="section-title reveal">ABOUT ME</h2>
+
+                        <div class="about-text reveal">
+                            <p>사용자 입장에서 화면을 어떻게 보여줘야 <br class="mo-br">더 잘 이해할 수 있을지 고민하는 걸 좋아합니다.</p>
+                            <p>디자인과 개발을 따로 생각하기보다는,<br class="mo-br"> 둘이 어떻게 자연스럽게 이어질 수 있을지 <br class="mo-br">계속 생각하면서 작업하고 있습니다.</p>
+                            <p>단순히 화면을 구현하는 것보다는,<br class="mo-br"> 구조나 흐름을 먼저 이해하려고 하고</p>
+                            <p>사용자가 헷갈리지 않고 자연스럽게 사용할 수 있는 <br class="mo-br">방향을 찾는 과정에 집중합니다.</p>
+                            <p>작은 인터랙션이나 디테일도 <br class="mo-br">전체 경험에 영향을 준다고 생각해서, <br class="mo-br">그런 부분들도 신경 쓰려고 합니다.</p>
+                            <p>프로젝트를 진행하면서 부족한 부분은 계속 개선하려고 하고,</p>
+                            <p>결과뿐만 아니라 만들어가는 과정도<br class="mo-br"> 중요하게 생각하고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ===================== SKILLS ===================== -->
+            <section class="skills section-dark" id="skills">
+                <div class="bg-orb bg-orb-skills"></div>
+
+                    <div class="inner">
+                        <div class="skills-wrap">
+                        <h2 class="section-title skills-title reveal">SKILLS</h2>
+
+                        <div class="skills-grid reveal">
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/iconoir_html5.png" alt="HTML5 아이콘" /></span>
+                                <strong class="skill-name">HTML5</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/ri_css3-line.png" alt="CSS3 아이콘" /></span>
+                                <strong class="skill-name">CSS3</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/ri_javascript-fill.png" alt="JavaScript 아이콘" /></span>
+                                <strong class="skill-name">JavaScript</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/uil_react.png" alt="React 아이콘" /></span>
+                                <strong class="skill-name">React</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/teenyicons_nodejs-outline.png" alt="Node.js 아이콘" /></span>
+                                <strong class="skill-name">Node.js</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/bxl_tailwind-css.png" alt="Tailwind CSS 아이콘" /></span>
+                                <strong class="skill-name">Tailwind CSS</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/simple-icons_daisyui.png" alt="DaisyUI 아이콘" /></span>
+                                <strong class="skill-name">DaisyUI</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/ri_javascript-fill-1.png" alt="Swiper 아이콘" /></span>
+                                <strong class="skill-name">Swiper.js</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/bxl_gsap.png" alt="GSAP 아이콘" /></span>
+                                <strong class="skill-name">GSAP.js</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/mdi_jquery.png" alt="jQuery 아이콘" /></span>
+                                <strong class="skill-name">jQuery</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/solar_figma-broken.png" alt="Figma 아이콘" /></span>
+                                <strong class="skill-name">Figma</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/iconoir_adobe-photoshop.png" alt="Photoshop 아이콘" /></span>
+                                <strong class="skill-name">Photoshop</strong>
+                            </div>
+
+                            <div class="skill-card reveal">
+                                <span class="skill-icon"><img src="./image/basil_adobe-illustrator-outline.png" alt="Illustrator 아이콘" /></span>
+                                <strong class="skill-name">Illustrator</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ===================== WORKS ===================== -->
+            <section class="works section-deep" id="works">
+                <div class="inner">
+                    <div class="works-head">
+                        <h2 class="works-title reveal">
+                            Selected <span>Works</span>
+                        </h2>
+
+                        <div class="works-tab-menu reveal">
+                            <button type="button" class="works-tab-btn active" data-tab="all">ALL</button>
+                            <button type="button" class="works-tab-btn" data-tab="team">TEAM</button>
+                            <button type="button" class="works-tab-btn" data-tab="personal">PERSONAL</button>
+                        </div>
+                    </div>
+
+
+                    <!-- ===== ALL ===== -->
+                    <div class="works-tab-content active" id="all">
+                        <div class="works-list works-list-all">
+
+                            <article class="work-item work-item-left team">
+                                <a href="https://leeys169.github.io/seoulsky/" class="work-thumb reveal">
+                                    <img src="./image/seoul.png" alt="SEOUL SKY 프로젝트 썸네일" />
+                                </a>
+                                <div class="work-info">
+                                    <div class="work-meta">
+                                        <h3 class="work-name reveal">SEOUL SKY</h3>
+                                        <span class="work-type reveal">Team Project · 기간 4주</span>
+                                    </div>
+                                    <p class="work-desc reveal">
+                                    6개월 과정 2개월 차에 진행 되었던<br class="mo-br"> 핵심 정보 탐색이 어려운 기존 구조를 개선하기 위해<br>
+                                    정보 구조와 시각적 위계를 재설계한 리뉴얼 프로젝트입니다.
+                                    </p>
+                                    <a href="https://leeys169.github.io/seoulsky/" class="work-link reveal" target="_blank">View Live Site <span>→</span></a>
+                                </div>
+                            </article>
+
+                            <article class="work-item work-item-right team ">
+                                <a href="https://leeys169.github.io/403motors/" class="work-thumb reveal">
+                                    <img src="./image/403.png" alt="403 MOTORS 프로젝트 썸네일" />
+                                </a>
+                                <div class="work-info">
+                                    <div class="work-meta">
+                                        <h3 class="work-name reveal">403 MOTORS</h3>
+                                        <span class="work-type reveal">Team Project · 기간 4주</span>
+                                    </div>
+                                    <p class="work-desc reveal">
+                                    6개월 과정 4개월 차에 진행 되었던 프로젝트로,<br class="mo-br">
+                                    사용자 입력 기반의 자동차 검색·추천·견적 흐름을 설계하고<br>
+                                    백엔드 API 연동을 통해 실제 서비스 형태로 구현했습니다.<br class="mo-br">
+                                    메인 페이지뿐만 아니라 차량 상세, 견적, 비교 등 <br>다양한 서브페이지까지포함하여<br class="mo-br">
+                                    전체 서비스 구조를 완성한 협업 프로젝트입니다.
+                                    </p>
+                                    <a href="https://leeys169.github.io/403motors/" class="work-link reveal" target="_blank">View Live Site <span>→</span></a>
+                                </div>
+                            </article>
+
+                            <article class="work-item work-item-left personal">
+                                <a href="https://leeys169.github.io/KODAK-Apparel/" class="work-thumb reveal">
+                                    <img src="./image/kodak.png" alt="KODAK 프로젝트 썸네일" />
+                                </a>
+                                <div class="work-info">
+                                    <div class="work-meta">
+                                        <h3 class="work-name reveal">KODAK</h3>
+                                        <span class="work-type reveal">Solo Project · 기간 2주</span>
+                                    </div>
+                                    <p class="work-desc reveal">
+                                    코닥 공식 웹사이트를 기반으로 레이아웃과 UI를 구현하고,<br>
+                                    다양한 해상도에 대응하는 반응형 구조까지 완성한 <br class="mo-br">클론코딩 프로젝트입니다.<br>
+                                    디자인 디테일과 사용자 인터랙션을 고려하여<br class="mo-br"> 실제서비스와 유사한 경험을 구현하는 데 집중했습니다.
+                                    </p>
+                                    <a href="https://leeys169.github.io/KODAK-Apparel/" class="work-link reveal" target="_blank">View Live Site <span>→</span></a>
+                                </div>
+                            </article>
+
+                            <article class="work-item work-item-right personal">
+                                <a href="https://leeys169.github.io/youandus/" class="work-thumb reveal">
+                                    <img src="./image/youandus.png" alt="YOU AND US 프로젝트 썸네일" />
+                                </a>
+                                <div class="work-info">
+                                    <div class="work-meta">
+                                        <h3 class="work-name reveal">YOU AND US</h3>
+                                        <span class="work-type reveal">Solo Project · 기간 2주</span>
+                                    </div>
+                                    <p class="work-desc reveal">
+                                    유앤어스 웹사이트를 기반으로<br class="mo-br">UI와 레이아웃을 구현한 클론코딩 프로젝트입니다.<br>
+                                    사용자 동작에 반응하는 인터랙션을 적용하고,
+                                    GSAP을 활용해 Full Page 구조로 자연스러운 화면 흐름을 구현했습니다.
+                                    </p>
+                                    <a href="https://leeys169.github.io/youandus/" class="work-link reveal" target="_blank">View Live Site <span>→</span></a>
+                                </div>
+                            </article>
+
+                            <article class="work-item work-item-left personal">
+                                <a href="https://leeys169.github.io/Apple/" class="work-thumb reveal">
+                                    <img src="./image/apple.png" alt="Apple 프로젝트 썸네일" />
+                                </a>
+                                <div class="work-info">
+                                    <div class="work-meta">
+                                        <h3 class="work-name reveal">Apple</h3>
+                                        <span class="work-type reveal">Solo Project · 기간 1주</span>
+                                    </div>
+                                    <p class="work-desc reveal">
+                                    애플 웹사이트를 기반으로 UI를 구현하고,
+                                    hover 효과와 간단한 반응형 레이아웃을 적용한 프로젝트입니다.
+                                    </p>
+                                    <a href="https://leeys169.github.io/Apple/" class="work-link reveal" target="_blank">View Live Site <span>→</span></a>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+
+                    <!-- ===== TEAM ===== -->
+                    <div class="works-tab-content" id="team">
+                        <div class="works-list works-list-vertical">
+
+                            <article class="work-item work-item-full">
+                                <a href="https://leeys169.github.io/seoulsky/" class="work-thumb">
+                                    <img src="./image/seoul.png" alt="SEOUL SKY 프로젝트 썸네일" />
+                                </a>
+                                <div class="work-info work-info-center">
+                                    <div class="work-meta work-meta-center">
+                                        <h3 class="work-name">SEOUL SKY</h3>
+                                        <span class="work-type">Team Project · 기간 4주</span>
+                                    </div>
+                                    <p class="work-desc">
+                                    6개월 과정 2개월 차에 진행 되었던<br class="mo-br"> 핵심 정보 탐색이 어려운 기존 구조를 개선하기 위해<br>
+                                    정보 구조와 시각적 위계를 재설계한 리뉴얼 프로젝트입니다.
+                                    </p>
+                                    <a href="https://leeys169.github.io/seoulsky/" class="work-link" target="_blank">View Live Site <span>→</span></a>
+                                </div>
+                            </article>
+
+                            <article class="work-item work-item-full">
+                                <a href="https://leeys169.github.io/403motors/" class="work-thumb">
+                                    <img src="./image/403.png" alt="403 MOTORS 프로젝트 썸네일" />
+                                </a>
+                                <div class="work-info work-info-center">
+                                    <div class="work-meta work-meta-center">
+                                        <h3 class="work-name">403 MOTORS</h3>
+                                        <span class="work-type">Team Project · 기간 4주</span>
+                                    </div>
+                                    <p class="work-desc">
+                                    6개월 과정 4개월 차에 진행 되었던 프로젝트로,<br>
+                                    사용자 입력 기반의 자동차 검색·추천·견적 흐름을 설계하고 백엔드 API 연동을 통해 실제 서비스 형태로 구현했습니다.<br>
+                                    메인 페이지뿐만 아니라 차량 상세, 견적, 비교 등 다양한 서브페이지까지 포함하여 전체 서비스 구조를 완성한 협업 프로젝트입니다.
+                                    </p>
+                                    <a href="https://leeys169.github.io/403motors/" class="work-link" target="_blank">View Live Site <span>→</span></a>
+                                </div>
+                        </article>
+                    </div>
+                </div>
+
+
+                <!-- ===== PERSONAL ===== -->
+                <div class="works-tab-content" id="personal">
+                    <div class="works-list works-list-vertical">
+
+                        <article class="work-item work-item-full">
+                            <a href="https://leeys169.github.io/KODAK-Apparel/" class="work-thumb">
+                                <img src="./image/kodak.png" alt="KODAK 프로젝트 썸네일" />
+                            </a>
+                            <div class="work-info work-info-center">
+                                <div class="work-meta work-meta-center">
+                                    <h3 class="work-name">KODAK</h3>
+                                    <span class="work-type">Solo Project · 기간 2주</span>
+                                </div>
+                                <p class="work-desc">
+                                코닥 공식 웹사이트를 기반으로 레이아웃과 UI를 구현하고,<br>
+                                다양한 해상도에 대응하는 반응형 구조까지 완성한 <br class="mo-br">클론코딩 프로젝트입니다.<br>
+                                디자인 디테일과 사용자 인터랙션을 고려하여 실제 서비스와 유사한 경험을 구현하는 데 집중했습니다.
+                                </p>
+                                <a href="https://leeys169.github.io/KODAK-Apparel/" class="work-link" target="_blank">View Live Site <span>→</span></a>
+                            </div>
+                        </article>
+
+                        <article class="work-item work-item-full">
+                            <a href="https://leeys169.github.io/youandus/" class="work-thumb">
+                                <img src="./image/youandus.png" alt="YOU AND US 프로젝트 썸네일" />
+                            </a>
+                            <div class="work-info work-info-center">
+                                <div class="work-meta work-meta-center">
+                                    <h3 class="work-name">YOU AND US</h3>
+                                    <span class="work-type">Solo Project · 기간 2주</span>
+                                </div>
+                                <p class="work-desc">
+                                유앤어스 웹사이트를 기반으로 <br class="mo-br">UI와 레이아웃을 구현한 클론코딩 프로젝트입니다.<br>
+                                사용자 동작에 반응하는 인터랙션을 적용하고, GSAP을 활용해 Full Page 구조로 자연스러운 화면 흐름을 구현했습니다.
+                                </p>
+                                <a href="https://leeys169.github.io/youandus/" class="work-link" target="_blank">View Live Site <span>→</span></a>
+                            </div>
+                        </article>
+
+                        <article class="work-item work-item-full">
+                            <a href="https://leeys169.github.io/Apple/" class="work-thumb">
+                                <img src="./image/apple.png" alt="Apple 프로젝트 썸네일" />
+                            </a>
+                            <div class="work-info work-info-center">
+                                <div class="work-meta work-meta-center">
+                                    <h3 class="work-name">Apple</h3>
+                                    <span class="work-type">Solo Project · 기간 1주</span>
+                                </div>
+                                <p class="work-desc">
+                                애플 웹사이트를 기반으로 UI를 구현하고,
+                                hover 효과와 간단한 반응형 레이아웃을 적용한 프로젝트입니다.
+                                </p>
+                                <a href="https://leeys169.github.io/Apple/" class="work-link" target="_blank">View Live Site <span>→</span></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <!-- 퀵 네비게이션 -->
+            <nav class="quick-nav">
+                <ul>
+                    <li><a href="#profile" class="nav-dot" data-name="Profile"></a></li>
+                    <li><a href="#about" class="nav-dot" data-name="About"></a></li>
+                    <li><a href="#skills" class="nav-dot" data-name="Skills"></a></li>
+                    <li><a href="#works" class="nav-dot" data-name="Works"></a></li>
+                    <li><a href="#footer" class="nav-dot" data-name="Contact"></a></li>
+                </ul>
+            </nav>
+
+            <!-- ===================== FOOTER ===================== -->
+            <footer class="footer section-dark" id="footer">
+                <div class="bg-orb bg-orb-footer"></div>
+
+                <div class="inner">
+                    <div class="footer-wrap">
+                        <p class="footer-text reveal">
+                            Thanks for viewing my portfolio.<br />
+                            Always <span>improving</span>,<br />
+                            Always <span>building</span>.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
