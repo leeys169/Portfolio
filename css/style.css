@@ -734,10 +734,6 @@
         font-size: 120px; 
     }
 
-    .about{
-        min-height: 100vh;
-    }
-
     .about-text p{
         font-size: 15px;
         white-space: nowrap;
@@ -785,7 +781,7 @@
 
 @media screen and (max-width: 660px){
     .about .inner{
-        padding: 0 20px;
+        padding: 20px;
     }
 
     .about-text p { 
