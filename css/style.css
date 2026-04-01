@@ -215,7 +215,7 @@
 /* ------------------ABOUT ME */
 .about {
     position: relative;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     padding: 100px 0;
@@ -236,9 +236,9 @@
 
 .about-text p {
     font-size: 17px;
-    font-weight: 200;
-    line-height: 1.8;
-    margin-bottom: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 20px;
 }
 
 
@@ -449,13 +449,12 @@
 
 .work-type {
     display: block;
-    font-weight: 200;
 }
 
 .work-desc {
     line-height: 1.7;
     margin-bottom: 20px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .work-link {
