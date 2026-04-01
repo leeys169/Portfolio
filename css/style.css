@@ -37,7 +37,8 @@
     will-change: transform, opacity; 
 }
 
-.mo-br{
+.mo-br,
+.tab-br{
     display: none;
 }
 
@@ -455,6 +456,7 @@
     line-height: 1.7;
     margin-bottom: 20px;
     font-weight: 300;
+    font-size: 16px;
 }
 
 .work-link {
@@ -635,7 +637,7 @@
     }
 
     .work-desc{
-        font-size: 15px;
+        font-size: 14px;
         word-break: keep-all;
     }
 
@@ -647,13 +649,6 @@
         margin-bottom: 15px;
     }
 }
-
-@media screen and (max-width: 1460px){
-    .work-desc{
-        /* white-space: nowrap; */
-    }
-}
-
 
 @media screen and (max-width: 1024px) {
     .profile-wrap { 
