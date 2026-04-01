@@ -648,6 +648,11 @@
     }
 }
 
+@media screen and (max-width: 1460px){
+    .work-desc{
+        /* white-space: nowrap; */
+    }
+}
 
 
 @media screen and (max-width: 1024px) {
