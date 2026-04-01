@@ -627,7 +627,7 @@
 
 /* ====================반응형=================== */
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1460px) {
     .profile-title { 
         font-size: 160px; 
     }
