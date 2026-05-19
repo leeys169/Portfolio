@@ -196,9 +196,56 @@ function initTabEvents() {
 //     });
 // });
 
-// ====================== 6. 최종 실행 명령 ======================
+// ====================== 6. DESIGN POPUP ======================
+function initDesignPopup() {
+    const popup = document.getElementById("designPopup");
+    const popupImg = document.getElementById("designPopupImg");
+    const popupTitle = document.getElementById("designPopupTitle");
+    const openBtns = document.querySelectorAll(".design-open-btn");
+    const closeBtns = document.querySelectorAll("[data-popup-close]");
+
+    if (!popup || !popupImg || !popupTitle) return;
+
+    function openPopup(imgSrc, title) {
+        popupImg.src = imgSrc;
+        popupImg.alt = `${title} 전체 디자인 이미지`;
+        popupTitle.textContent = title;
+        popup.classList.add("active");
+        popup.setAttribute("aria-hidden", "false");
+        document.body.classList.add("popup-open");
+    }
+
+    function closePopup() {
+        popup.classList.remove("active");
+        popup.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("popup-open");
+        popupImg.src = "";
+    }
+
+    openBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const imgSrc = btn.dataset.popupImg;
+            const title = btn.dataset.popupTitle || "Design Preview";
+            if (!imgSrc) return;
+            openPopup(imgSrc, title);
+        });
+    });
+
+    closeBtns.forEach(btn => {
+        btn.addEventListener("click", closePopup);
+    });
+
+    window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && popup.classList.contains("active")) {
+            closePopup();
+        }
+    });
+}
+
+// ====================== 7. 최종 실행 명령 ======================
 window.addEventListener("DOMContentLoaded", () => {
     initTabEvents();
     initQuickNav(); // 퀵 네비게이션 초기화 추가
+    initDesignPopup(); // 디자인 팝업 초기화
     setTimeout(typing, 100);
 });
