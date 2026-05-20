@@ -396,7 +396,7 @@
 .works-list-all {
     display: flex;
     flex-direction: column;
-    gap: 120px;
+    gap: 100px;
 }
 
 .work-item {
